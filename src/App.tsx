@@ -6,7 +6,8 @@ import './App.css'
 
 import { AuthProvider } from './context/AuthContext'
 // import { LoginPage } from './components/LoginPage'
-import { UsersPage } from './components/UsersPage'
+// import { UsersPage } from './components/UsersPage'
+import { FormsPage } from './components/formsPage'
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <BasicFunctions /> */}
         {/* <Counter /> */}
         {/* <LoginPage /> */}
-        <UsersPage />
+        {/* <UsersPage /> */}
+        <FormsPage />
       </div>
     </AuthProvider>
   )
