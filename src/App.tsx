@@ -1,11 +1,12 @@
 import './App.css'
-import { LoginPage } from './components/LoginPage'
 // import { BasicTypes } from './typescript/BasicTypes'
 // import { ObjectLiterals } from './typescript/ObjectLiterals'
 // import { BasicFunctions } from './typescript/BasicFunctions'
 // import { Counter } from './components/Counter'
 
 import { AuthProvider } from './context/AuthContext'
+// import { LoginPage } from './components/LoginPage'
+import { UsersPage } from './components/UsersPage'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         {/* <ObjectLiterals /> */}
         {/* <BasicFunctions /> */}
         {/* <Counter /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <UsersPage />
       </div>
     </AuthProvider>
   )
